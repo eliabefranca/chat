@@ -1,0 +1,17 @@
+html
+  head
+    title
+      | Chat
+    meta(http-equiv="X-UA-Compatible", content="IE=7")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel='stylesheet', href='/static/style.css')
+  body
+    div(id='chat-container')
+      div(id='chat-messages')
+        div(id='chat-messages-container')
+      textarea(id='chat-input', placeholder='Type your message here...')
+      button(id='chat-send')
+        | Send
+
+  script(src='/static/app.js')
+    
